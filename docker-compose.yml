@@ -2,7 +2,7 @@
 version: "2.1"
 services:
   openvscode-server:
-    image: lscr.io/linuxserver/openvscode-server:1.82.2
+    image: lscr.io/linuxserver/openvscode-server:1.83.0
     container_name: openvscode-server
     environment:
       - PUID=1000
